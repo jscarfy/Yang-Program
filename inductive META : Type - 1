@@ -1,0 +1,6 @@
+inductive META : Type
+| base : META
+| recurse : META → META
+
+def META_proj_limit : META := 
+  let rec limit := META.recurse limit in limit

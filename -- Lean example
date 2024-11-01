@@ -1,0 +1,9 @@
+-- Lean example
+inductive meta : Type
+| base : meta
+| recurse : meta → meta
+
+-- Recursive function to generate n levels of meta
+def meta_n : ℕ → meta
+| 0 := meta.base
+| (n + 1) := meta.recurse (meta_n n)

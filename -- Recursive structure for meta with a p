@@ -1,0 +1,7 @@
+-- Recursive structure for meta with a projective limit
+def meta_limit : ℕ → meta
+| 0 := meta.base
+| (n + 1) := meta.recurse (meta_limit n)
+
+-- Projective limit definition as a recursive sequence
+def meta_proj_limit : meta := meta_limit ∞  -- use appropriate notation for infinity

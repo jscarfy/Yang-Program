@@ -1,0 +1,6 @@
+-- Recursive limit as an infinite sequence
+def meta_limit : ℕ → meta
+| 0 := meta.base
+| (n + 1) := meta.recurse (meta_limit n)
+
+def meta_proj_limit : meta := meta_limit ∞  -- interpret ∞ as a suitable limit representation

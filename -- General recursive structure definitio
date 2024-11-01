@@ -1,0 +1,4 @@
+-- General recursive structure definition
+class MetaLevel (L : Type) :=
+(base : L)
+(recurse : L → L)

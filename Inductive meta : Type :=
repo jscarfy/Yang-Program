@@ -1,0 +1,9 @@
+Inductive meta : Type :=
+| base : meta
+| recurse : meta -> meta.
+
+Fixpoint meta_n (n : nat) : meta :=
+  match n with
+  | 0 => base
+  | S n' => recurse (meta_n n')
+  end.

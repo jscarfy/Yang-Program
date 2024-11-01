@@ -19,29 +19,38 @@ Below is an overview of the files in this repository and their contents:
 
 	•	Define higher level Meta recursively.hs
 Contains Haskell code to define the recursive structure for higher meta levels, such as Meta and MEta.
+
 	•	Define the base recursive structure f.hs
 Haskell code for defining the base recursive structure for meta, the starting level in the Yang Program’s hierarchy.
+
 	•	General recursive structure definition
 A document providing a general overview of recursive structures used throughout the Yang Program, applicable across all meta-levels.
+
 	•	Lean example
+
 Lean code illustrating an example of the Yang Program’s recursive structure using meta.
 	•	Recursive limit as an infinite sequence
+
 A document that describes how the recursive limit is implemented as an infinite sequence for each level, ultimately leading to META.
 	•	Recursive structure for meta with a projective limit
+
 Detailed explanation of the projective limit for meta, with formal definitions used in both Lean and Coq.
 	•	inductive Meta / Type
+
 Coq code for defining Meta as an inductive type, incorporating recursive elements and type definitions.
 	•	inductive META / Type - 1
+
 Coq file providing the inductive type for META, the ultimate level in the hierarchy, with type-level definitions.
 	•	Inductive meta / Type /=
+
 Coq code defining meta as an inductive type with a recursive structure that forms the base of the Yang Program.
 
 Usage
 
 To explore the Yang Program’s recursive structures, you can use the Lean and Coq files provided in this repository. If you are new to Lean or Coq, you may need to install these proof assistants. Here are the links:
 
-	•	Lean Installation
-	•	Coq Installation
+	•	Lean Installation https://leanprover-community.github.io/get_started.html
+	•	Coq Installation https://github.com/coq/coq/blob/master/INSTALL.md
 
 Once installed, open the respective files in Lean or Coq to examine the formalized definitions.
 

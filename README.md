@@ -1,5 +1,3 @@
-Here’s a template for a README file for your Yang Program repository. This README will give collaborators a clear understanding of your project, the purpose of each file, and how they can contribute or provide feedback.
-
 Yang Program
 
 Author: Pu Justin Scarfy Yang
